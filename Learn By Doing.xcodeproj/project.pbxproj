@@ -13,6 +13,15 @@
 		E3BD8973247E8174006497B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BD8972247E8174006497B9 /* Assets.xcassets */; };
 		E3BD8976247E8174006497B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BD8975247E8174006497B9 /* Preview Assets.xcassets */; };
 		E3BD8979247E8174006497B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BD8977247E8174006497B9 /* LaunchScreen.storyboard */; };
+		E3BD8982247E9051006497B9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD8981247E9051006497B9 /* CardView.swift */; };
+		E3BD8986247EA2ED006497B9 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD8985247EA2ED006497B9 /* CardModel.swift */; };
+		E3BD8988247EA37E006497B9 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD8987247EA37E006497B9 /* CardData.swift */; };
+		E3BD898B247EAB19006497B9 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD898A247EAB19006497B9 /* PlaySound.swift */; };
+		E3BD898F247FC038006497B9 /* chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3BD898E247FC038006497B9 /* chime.mp3 */; };
+		E3BD8991247FC094006497B9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3BD8990247FC094006497B9 /* README.md */; };
+		E3BD8995247FC29E006497B9 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BD8992247FC29E006497B9 /* launch.png */; };
+		E3BD8996247FC29E006497B9 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BD8993247FC29E006497B9 /* alert.png */; };
+		E3BD8997247FC29E006497B9 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BD8994247FC29E006497B9 /* main.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		E3BD8975247E8174006497B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3BD8978247E8174006497B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3BD897A247E8174006497B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BD8981247E9051006497B9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E3BD8985247EA2ED006497B9 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		E3BD8987247EA37E006497B9 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		E3BD898A247EAB19006497B9 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		E3BD898E247FC038006497B9 /* chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime.mp3; sourceTree = "<group>"; };
+		E3BD8990247FC094006497B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3BD8992247FC29E006497B9 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		E3BD8993247FC29E006497B9 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		E3BD8994247FC29E006497B9 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,10 @@
 		E3BD8960247E8169006497B9 = {
 			isa = PBXGroup;
 			children = (
+				E3BD8990247FC094006497B9 /* README.md */,
+				E3BD8994247FC29E006497B9 /* main.png */,
+				E3BD8993247FC29E006497B9 /* alert.png */,
+				E3BD8992247FC29E006497B9 /* launch.png */,
 				E3BD896B247E8169006497B9 /* Learn By Doing */,
 				E3BD896A247E8169006497B9 /* Products */,
 			);
@@ -56,13 +78,17 @@
 		E3BD896B247E8169006497B9 /* Learn By Doing */ = {
 			isa = PBXGroup;
 			children = (
+				E3BD8989247EAAEB006497B9 /* Sounds */,
+				E3BD8984247EA2C8006497B9 /* Data */,
+				E3BD8983247EA2C1006497B9 /* Models */,
+				E3BD8980247E903D006497B9 /* Views */,
 				E3BD896C247E8169006497B9 /* AppDelegate.swift */,
 				E3BD896E247E816A006497B9 /* SceneDelegate.swift */,
-				E3BD8970247E816A006497B9 /* ContentView.swift */,
 				E3BD8972247E8174006497B9 /* Assets.xcassets */,
 				E3BD8977247E8174006497B9 /* LaunchScreen.storyboard */,
 				E3BD897A247E8174006497B9 /* Info.plist */,
 				E3BD8974247E8174006497B9 /* Preview Content */,
+				E3BD898A247EAB19006497B9 /* PlaySound.swift */,
 			);
 			path = "Learn By Doing";
 			sourceTree = "<group>";
@@ -73,6 +99,39 @@
 				E3BD8975247E8174006497B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3BD8980247E903D006497B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD8970247E816A006497B9 /* ContentView.swift */,
+				E3BD8981247E9051006497B9 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3BD8983247EA2C1006497B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD8985247EA2ED006497B9 /* CardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3BD8984247EA2C8006497B9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD8987247EA37E006497B9 /* CardData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E3BD8989247EAAEB006497B9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD898E247FC038006497B9 /* chime.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +192,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BD898F247FC038006497B9 /* chime.mp3 in Resources */,
+				E3BD8997247FC29E006497B9 /* main.png in Resources */,
+				E3BD8996247FC29E006497B9 /* alert.png in Resources */,
 				E3BD8979247E8174006497B9 /* LaunchScreen.storyboard in Resources */,
+				E3BD8991247FC094006497B9 /* README.md in Resources */,
+				E3BD8995247FC29E006497B9 /* launch.png in Resources */,
 				E3BD8976247E8174006497B9 /* Preview Assets.xcassets in Resources */,
 				E3BD8973247E8174006497B9 /* Assets.xcassets in Resources */,
 			);
@@ -146,9 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BD898B247EAB19006497B9 /* PlaySound.swift in Sources */,
 				E3BD896D247E8169006497B9 /* AppDelegate.swift in Sources */,
 				E3BD896F247E816A006497B9 /* SceneDelegate.swift in Sources */,
+				E3BD8982247E9051006497B9 /* CardView.swift in Sources */,
+				E3BD8988247EA37E006497B9 /* CardData.swift in Sources */,
 				E3BD8971247E816A006497B9 /* ContentView.swift in Sources */,
+				E3BD8986247EA2ED006497B9 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
